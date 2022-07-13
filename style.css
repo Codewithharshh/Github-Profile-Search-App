@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}  
+
+body{
+background:#025ABE;  
+font-family: 'Space Mono', monospace;
+}
+
+.container{
+background:white;     
+padding:15px 10px 15px 15px;
+width:330px;
+position:relative;
+top:250px;
+left:50%;
+transform:translate(-50%,-50%);
+border-radius:5px;
+}
+
+.info-div{
+padding:2px 2px 2px 2px;    
+}
+
+.search-container{
+height:40px;    
+width:300px;
+border:1px solid grey;
+border-radius:5px;
+display:flex;
+align-items:center;
+}
+
+.search-container > input{
+all:unset;    
+width:170px;
+position:relative;
+left:10px;
+font-size:12px;
+}
+
+.search-container > button{
+all:unset; 
+padding:3px;
+width:70px;
+background:#025ABE;
+border-radius:3px;
+text-align:center;
+position:absolute;
+right:22px;
+font-size:15px;
+color:white;
+cursor:pointer;
+}
+
+.search-container .fa-magnifying-glass{
+color:#025ABE;
+margin-left:10px;
+}
+
+.info-div > img{
+height:80px;     
+width:80px;
+border-radius:100%;
+background:red;
+margin-top:20px;
+}
+
+.info-div .user-name-details{
+position:absolute;   
+top:80px;
+left:105px;
+font-size:16px;
+}
+
+.user-name-details > h3{
+font-weight:300;
+}
+
+.user-name-details > h6{
+color:#025ABE;       
+font-weight:300;
+}
+
+.user-name-details > span{
+font-size:10px;   
+color:grey;
+}
+
+.bio{
+color:black;
+width:270px;
+font-size:13px;
+color:grey;
+margin-top:5px;
+}
+
+.user-profile{
+height:80px;
+width:300px;
+margin-top:20px;
+background:#F4F4FC;
+border-radius:5px;
+}
+
+.user-profile > div{
+float:left;  
+height:80px;
+width:100px;
+text-align:center;
+}
+
+.user-profile > div > span{
+color:#9C9DA2;
+}
+
+.user-profile > div > h3{
+font-size:25px;
+position:relative;
+top:10px;
+}
+
+.user-profile > div > span{
+position:relative;
+top:10px;  
+font-size:13px;
+}
+
+.user-other-details{
+margin-top:15px;
+}
+
+.user-other-details > p{
+margin-top:8px;
+color:grey;
+font-size:14px;
+}
+
+.fa-solid ,.fa-brands{
+color:#596283;        
+}
+
+.message{
+margin-left:70px;
+margin-top:5px;
+}
